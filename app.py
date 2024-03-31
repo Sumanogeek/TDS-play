@@ -4,8 +4,8 @@ def addition(a,b):
   return (a+b)
 
 st.title("Model Caclulator")
-a = st.input("enter a: ")
-b = st.input("enter b: ")
+a = st.number_input('Insert 1st number: ')
+b = st.number_input('Insert 2nd number: ')
 
 value = addition(a,b)
 st.write(value)
